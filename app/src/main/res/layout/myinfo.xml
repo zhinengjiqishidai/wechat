@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#111111"
+    >
+    <ImageView
+        android:id="@+id/iv_back"
+        android:src="@drawable/icon_back"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:onClick="doClick"/>
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="详细资料"
+        android:textSize="18sp"
+        android:textColor="#eeeeee"
+        android:gravity="center_vertical"/>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fefefe"
+    android:layout_marginLeft="20dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/a"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="易水寒"
+        android:textSize="18sp"
+        android:textColor="#323232"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信号：lalala"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称：lalala"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="设置备注和标签"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="电话号码"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="1234567890"
+            android:textColor="#0022ff"/>
+        </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="地区"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="冰岛"
+                android:textColor="#333333"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="个人相册"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="更多"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ee33"
+        android:text="发消息"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:text="视频通话"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

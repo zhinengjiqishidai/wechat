@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/login"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="微信注册"
+            android:textColor="#789456"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="昵称"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textSize="14sp" />
+
+                <requestFocus />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="密码"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/userpassword"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:inputType="textPassword"
+                    android:text=""
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:text="确认"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/userpassword1"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:text=""
+                android:textSize="14sp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#696969"
+            android:gravity="center"
+            android:onClick="doClick"
+            android:text="注册" />
+    </LinearLayout>
+
+</LinearLayout>
